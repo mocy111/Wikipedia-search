@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Wikipedia Search</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/png" href="MoctarYonli.jpg">
+
+</head>
+
+<body>
+  <div class="container">
+    <img id="wikipedia-logo" src="https://upload.wikimedia.org/wikipedia/en/thumb/8/80/Wikipedia-logo-v2.svg/526px-Wikipedia-logo-v2.svg.png">
+    
+    <div id="form-content">
+      <form id="searchForm">
+        <input type="search" id="searchInput" required placeholder="Search Wikipedia " autocomplete="off">
+        <button type="submit" id="submitButton"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/archive/0/0d/20181025165928%21OOjs_UI_icon_search.svg/120px-OOjs_UI_icon_search.svg.png" alt="Search"></button>
+      </form>
+      <div>
+        <a title="Enlighten Me!" href="https://en.wikipedia.org/wiki/Special:Random" target="_blank"><button id="randomSearchBtn">I'm Feeling Random</button>
+      </div>
+    </div>
+      
+  <ul id="pageList"></ul>
+</body>
+  
+    <script src="script.js"></script>
+</html>
